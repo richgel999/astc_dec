@@ -22,7 +22,7 @@ Call this function to decode ASTC blocks to 8-bit RGBA pixels:
 
 pDst is a pointer to the output pixels. The component byte order from lowest to highest memory location is is R, G, B, A.
 
-pData is a pointer to the ASTC block data.
+data is a pointer to the ASTC block data.
 
 Set isSRGB to true to enable sRGB 8->16 upscaling during decompression (before weight application). It's important that you set this flag to match whatever the encoder did, otherwise you'll introduce an extra ~1 LSB of error in the output:
 https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc_weight_application
