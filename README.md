@@ -1,5 +1,5 @@
 # astc_dec
-astc_dec is a single source file ASTC texture decompressor with the Apache 2.0 license, derived from Google's open source Android sources. The code currently only supports the LDR modes, but it would be easy to get HDR modes working again (the code is just remarked out because it depends on an FP16 class I didn't have time to reimplement). Please note that this is not an official Google repo, and is unsupported by Google. I have only placed it here for convienance to others.
+astc_dec is a single source file **LDR** ASTC texture decompressor with the Apache 2.0 license, derived from Google's open source Android sources. The code currently only supports the LDR modes, but it would be easy to get HDR modes working again (the code is just remarked out because it depends on an FP16 class I didn't have time to reimplement). Please note that this is not an official Google repo, and is unsupported by Google. I have only placed it here for convienance to others.
 
 This decoder is derived from the original code here:
 
