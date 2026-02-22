@@ -9,7 +9,7 @@ This decoder is derived from the original code here:
 https://chromium.googlesource.com/external/deqp/+/refs/heads/master/framework/common/tcuAstcUtil.cpp
 https://chromium.googlesource.com/external/deqp/+/refs/heads/master/framework/common/tcuAstcUtil.hpp
 
-Unlike Google's astc-codec decompressor, I found no bugs in this decoder, and it's also still usable in debug builds (astc-codec is extremely slow in debug).
+Unlike Google's [astc-codec decompressor](https://github.com/google/astc-codec), I found no bugs in this decoder, and it's also still usable in debug builds (astc-codec is extremely slow in debug).
 
 The testing code was removed to reduce the code size and number of external dependencies. I also replaced the external dependencies with custom implementations, to reduce the code size. 
 
